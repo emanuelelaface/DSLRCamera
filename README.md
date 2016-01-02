@@ -6,7 +6,7 @@ All rights reserved.
 
 Redistribution and use, with or without modification, are permitted provided that the following conditions are met:
 Redistributions must retain the above copyright notice, this list of conditions and the following disclaimer.
-Neither the name of the AstroPhoto Author nor the names of any contributors may be used to endorse or promote
+Neither the name of the DSLRCamera Author nor the names of any contributors may be used to endorse or promote
 products derived from this software without specific prior written permission.
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
@@ -24,9 +24,9 @@ It comes with a small controller of my arduino focuser, but if it is not connect
 
 Everything about astrometry can be found on their website, including the license.
 You also need the index files. To establish which index you need to know the size of your FOV and compare with
-the information provided by AstroPhoto here: http://astrometry.net/doc/readme.html
+the information provided by DSLRCamera here: http://astrometry.net/doc/readme.html
 
-AstroPhoto assume that astrometry is installed within the following directories:
+DSLRCamera assume that astrometry is installed within the following directories:
 directory: /usr/local/astrometry
 solve-field: /usr/local/astrometry/bin/solve-field
 index files: anywhere where the solve-filed can find them. The default is /usr/local/astrometry/data
