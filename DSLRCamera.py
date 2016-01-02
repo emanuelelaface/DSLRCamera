@@ -471,7 +471,7 @@ class EOSUI(QtGui.QWidget):
                 area = 0
                 for i in contours:
                     area = area+cv2.contourArea(i)
-                print area
+#                print area
 
             if self.reticle_flag.checkState() == QtCore.Qt.Checked:
                 cv2.line(img, (768/2,0),(768/2,512),(255,255,255),1)
